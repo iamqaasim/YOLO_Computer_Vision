@@ -1,47 +1,25 @@
-# YOLO_Computer_Vision
+# YOLO Computer Vision
 
-Utilizing YOLO software to carry out Computer Vision
+This project demonstrates the implementation of YOLO (You Only Look Once), a fast and accurate real-time object detection algorithm used for computer vision tasks. The goal of this repository is to show how YOLO can be applied for various object detection tasks using Python.
 
-# Repository Contributions
+## Features
+- Real-time object detection using YOLO.
+- Supports various YOLO models for different use cases.
+- Object detection on images, videos, and real-time webcam streams.
 
-Clone repo
+## Installation
 
-```bash
-    git clone "https://github.com/iamqaasim/YOLO_Computer_Vision"
-```
-
-Change working directory
-
-```bash
-    cd "YOLO_Computer_Vision"
-```
-
-Create your own branch
+### Prerequisites
+Before running this project, ensure you have the following installed:
+- Python 3.x
+- OpenCV
+- YOLOv4 (or any other YOLO model)
 
 ```bash
-    git branch "branch_{your_name}"
+pip install -r requirements.txt
 ```
 
-Stage your changes
-
+### Clone the repository:
 ```bash
-    git add .
-```
-
-Commit your changes
-
-```bash
-    git commit -m "{Add relavent commit message}"
-```
-
-Push changes to github
-
-```bash
-    git push origin {name of your branch}
-```
-
-# Install requirements
-
-```bash
-  pip install -r requirements.txt
-```
+git clone https://github.com/iamqaasim/YOLO_Computer_Vision.git
+cd YOLO_Computer_Vision```
